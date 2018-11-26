@@ -97,7 +97,8 @@ git_commit <- function(message = NULL, verbose = FALSE){
      y
   }
 
-  lapply(files_staged, f)
+  f(file = files_staged)
+#  lapply(files_staged, f)
 }
 
 

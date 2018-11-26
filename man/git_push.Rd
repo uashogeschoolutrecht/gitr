@@ -5,7 +5,11 @@
 \title{Push files to a git repository}
 \usage{
 git_push(verbose = FALSE)
+
+git_push(verbose = FALSE)
 }
 \description{
 Push files to a git repository
+
+Get a list of staged files to a git repository
 }

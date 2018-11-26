@@ -1,0 +1,26 @@
+---
+title: "`gitr` An easisy R inteface to git commands"
+author: "Marc A.T. Teunis"
+date: "`r Sys.Date()`"
+---
+
+## Introduction
+A utilities R package to easily perform git configurations and git commands from R (without needing to use the Terminal)
+
+## Details
+ - This package is designed to work from within a github repository, and can be called from an active R-session.
+ - This package works best inside an RStudio Project
+ 
+ **WARNING** The commands in this package execute git commands which can be disruptive for your work. Please use with care!
+
+## Licence: 
+CC-BY NC 4.0
+
+## Author: 
+Marc A.T. Teunis, 2018
+
+## Installation
+In you R-session, from within an RStudio project
+```{r, eval=FALSE}
+install.packages("devtools")
+library(devtools)

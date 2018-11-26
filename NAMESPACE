@@ -2,5 +2,8 @@
 
 export("%>%")
 export(add_all_to_git_stage)
+export(git_diff)
+export(git_pull)
+export(git_push)
 export(set_git_user)
 importFrom(magrittr,"%>%")
